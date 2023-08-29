@@ -1,0 +1,16 @@
+{
+    "name": "LunaRoseManor.Spacewar.Spawning",
+    "rootNamespace": "",
+    "references": [
+        "GUID:17173a5ff5be07a40b5d32bf4567aef7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "LunaRoseManor.Spacewar.Physics",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f7e45f7901c3e2048bf1fae1166923cc",
+        "GUID:17173a5ff5be07a40b5d32bf4567aef7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

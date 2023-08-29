@@ -1,0 +1,17 @@
+{
+    "name": "LunaRoseManor.Spacewar.Input",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f7e45f7901c3e2048bf1fae1166923cc",
+        "GUID:b74e2af80aedde34ab874f2b3fbf9270"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
