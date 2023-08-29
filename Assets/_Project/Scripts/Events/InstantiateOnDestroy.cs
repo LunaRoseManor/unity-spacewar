@@ -16,7 +16,7 @@ public class InstantiateOnDestroy : MonoBehaviour
         // Should help with potential memory leaks
         if (!gameObject.scene.isLoaded) return;
 
-        if (_prefabs.Length > 0)
+        if (_prefabs.Length > 0 && gameObject.GetInstanceID() == base.gameObject.GetInstanceID())
         {
             for (int i = 0; i < _prefabs.Length; i++)
             {
