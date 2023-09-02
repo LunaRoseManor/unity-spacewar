@@ -1,15 +1,16 @@
 using UnityEngine;
+using TMPro;
 
-public class IncrementTextOnDestroy : MonoBehaviour
+public class IncrementTextOnObjectDestroy : MonoBehaviour
 {
     [SerializeField]
     private GameObject _gameObject;
-    private TextMesh _textMesh;
+    private TMP_Text _tmpText;
     private int _count = 0;
 
     void Awake()
     {
-        _textMesh = GetComponent<TextMesh>();
+        _tmpText = GetComponent<TMP_Text>();
         InvokeOnDestroy.Event.AddListener(OnGameObjectDestroy);
     }
 
@@ -22,7 +23,7 @@ public class IncrementTextOnDestroy : MonoBehaviour
         {
             // Continue counting
             _count++;
-            _textMesh.text = _count.ToString();
+            _tmpText.text = _count.ToString();
         }
     }
 }
