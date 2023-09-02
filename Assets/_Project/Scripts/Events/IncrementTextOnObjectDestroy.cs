@@ -4,7 +4,7 @@ using TMPro;
 public class IncrementTextOnObjectDestroy : MonoBehaviour
 {
     [SerializeField]
-    private GameObject _gameObject;
+    private string _gameObjectName;
     private TMP_Text _tmpText;
     private int _count = 0;
 
@@ -19,7 +19,7 @@ public class IncrementTextOnObjectDestroy : MonoBehaviour
         // NOTE: This can fail if someone maliciously names an object the
         //       the exact value as our stored prefab. Ideally this should
         //       check the ID of the exact object we're tracking.
-        if (check.name == _gameObject.name)
+        if (check.name == _gameObjectName)
         {
             // Continue counting
             _count++;
